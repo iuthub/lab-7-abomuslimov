@@ -1,7 +1,15 @@
 <?php  
 
 include('connection.php');
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
 
+echo $txt;
+echo "<br>";
+echo $x;
+echo "<br>";
+echo $y;
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">

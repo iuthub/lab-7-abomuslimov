@@ -81,3 +81,15 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+p{
+    color:red;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+h1{
+    color: blue;
+    text-align: left;
+    background: #000000;
+    border:1px solid black;
+}

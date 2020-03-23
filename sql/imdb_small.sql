@@ -188,3 +188,11 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2008-06-06 19:00:28
+CREATE TABLE staff(
+ user_id int(11) AUTO_INCREMENT PRIMARY KEY not null,
+ user_first varchar(256) not null,
+ user_last varchar(256) not null,
+ user_email varchar(256) not null,
+ user_uid varchar(256) not null,
+ user_pwd  varchar(256) not null
+);

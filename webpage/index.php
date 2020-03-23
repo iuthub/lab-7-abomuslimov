@@ -1,5 +1,26 @@
 <?php
 include('connection.php');
+// Check if the type of a variable is float
+$x = 10.365;
+var_dump(is_float($x));
+// Check if the variable is numeric
+$x = 5985;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "5985";
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "59.85" + 100;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "Hello";
+var_dump(is_numeric($x));
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
